@@ -1,14 +1,14 @@
 
 echo "a"
-read a
+a=$1
 echo "b"
-read b
+b=$2
 
 echo "1.Addition"
 echo "2.Subtraction"
 echo "3.Multiplication"
 echo "4.Division"
-read ch
+ch=$3
 
 case $ch in
 
