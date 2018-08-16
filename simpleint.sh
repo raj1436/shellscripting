@@ -1,9 +1,9 @@
-echo "enter the principle amount"
-read p
-echo "enter the number of years"
-read n
-echo "enter the rate of interest"
-read r
+echo "p"
+p=$1
+echo "n"
+n=$2
+echo "r"
+r=$3
 
 i=`expr $p \* $r \* $n`
 i=`expr $i / 100`
